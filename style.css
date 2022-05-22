@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.navright  {
+    width: 150px;
+}
+
+.navright button {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: 2px solid white;
+}
+
+.navright button:hover {
+    background-color: rgb(1, 137, 228);
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    color: white;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 20px;
+    /* margin-top: 25px; */
+}
+
+.navbar h1 {
+    color: white;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.maincolumn {
+    width: 600px;
+    margin: 20px;
+}
+
+.profileblock {
+    height: 400px;
+    border: 2px solid rgb(51, 51, 51);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(0,212,255,1) 100%);
+}
+
+.profileblock h1 {
+    margin-left: 20px;
+}
+
+.location {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 100px;
+}
+
+.location img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.aboutme {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.editprofile {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.editprofile img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.editprofile h3 {
+    font-size: 15px;
+    text-decoration: underline;
+    color: rgb(0, 140, 255);
+}
+
+
+.profileimage {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.educationblock {
+    height: 160px;
+    margin-top: 20px;
+    border: 2px solid rgb(46, 46, 46);
+}
+
+.educationcontent {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.educationcontent h4 {
+    color: grey;
+}
+
+.titlebar {
+    height: 40px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+}
+
+.titlebar h2 {
+    color: white;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.titlebar h3 {
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+    border-radius: 20px;
+    padding-top: 8px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.rightcolumn {
+    width: 300px;
+    margin: 20px;
+}
+
+.requests {
+    height: 200px;
+    border: 2px solid rgb(46, 46, 46);
+}
+
+.yourconnections {
+    margin-top: 20px;
+    height: 325px;
+    border: 2px solid rgb(46, 46, 46);
+}
+
+.connection {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.connection img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(48, 48, 48);
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.yourconnections h5 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
